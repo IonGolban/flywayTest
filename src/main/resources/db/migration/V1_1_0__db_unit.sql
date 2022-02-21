@@ -53,7 +53,6 @@ insert into T_CLIENT ( password, first_name, last_name, gender, email, tel_numbe
 insert into T_CLIENT ( password, first_name, last_name, gender, email, tel_number, doctor_id, disease_id) values ('oQFffKb', 'Cristian', 'Bog', 'MALE', 'cbogo@ca.gov', '3705486812', 4, 4);
 
 
-DROP TABLE T_CLIENT ;
 create table T_DISEASES (
 	id SERIAL PRIMARY KEY,
 	diagnosis_code VARCHAR(50),
